@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #d6ad60;
+}
+.heading {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  margin-top: 1%;
+  color: #122620;
+}
+
+.heading h1 {
+  margin-bottom: 1%;
+  font-size: 64px;
+  color: #122620;
+}
+
+.details {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+  text-align: center;
+  padding: 3%;
+  color: #122620;
+}
+
+.search-bar {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.search-bar input,
+.search-bar button {
+  padding: 1%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  border: none;
+}
+
+.search-bar input {
+  width: 75%;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
+
+.search-bar button {
+  cursor: pointer;
+  background-color: #122620;
+  color: #f4ebd0;
+}
